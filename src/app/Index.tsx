@@ -1,17 +1,16 @@
-import { View } from "react-native";
-import NameComponent from "../components/NameComponent";
-import AgeComponent from "../components/AgeComponent";
-import SubjectComponent from "../components/SubjectComponent";
-import HandleComponent from "../components/HandleComponent";
+import { ScrollView, View } from "react-native";
+import TextComponent from "../components/TextComponent";
+import ViewComponent from "../components/ViewComponent";
+import ButtonComponent from "../components/ButtonComponent";
+import ImageComponent from "../components/ImageComponent";
+import ChallengeComponent from "../components/ChallengeComponent";
 
 const Index = () => {
   return (
-    <View>
-      <NameComponent name="John Doe" />
-      <AgeComponent age={25} />
-      <SubjectComponent subject="React Native" />
-      <HandleComponent handle="@johndoe" />
-    </View>
+    <ScrollView>
+      {/* Challenge Stuff Below */}
+      <ChallengeComponent />
+    </ScrollView>
   );
 };
 
