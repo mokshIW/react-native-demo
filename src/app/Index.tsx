@@ -1,16 +1,13 @@
-import { ScrollView, View } from "react-native";
-import TextComponent from "../components/TextComponent";
-import ViewComponent from "../components/ViewComponent";
-import ButtonComponent from "../components/ButtonComponent";
-import ImageComponent from "../components/ImageComponent";
-import ChallengeComponent from "../components/ChallengeComponent";
+import { View } from "react-native";
+import DynamicContent from "../components/DynamicContent";
+import DynamicContentChallenge from "../components/DynamicContentChallenge";
 
 const Index = () => {
   return (
-    <ScrollView>
-      {/* Challenge Stuff Below */}
-      <ChallengeComponent />
-    </ScrollView>
+    <View>
+      <DynamicContent />
+      <DynamicContentChallenge />
+    </View>
   );
 };
 
