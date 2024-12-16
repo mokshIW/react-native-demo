@@ -1,12 +1,10 @@
 import { View } from "react-native";
-import DynamicContent from "../components/DynamicContent";
-import DynamicContentChallenge from "../components/DynamicContentChallenge";
 
 const Index = () => {
   return (
     <View>
-      <DynamicContent />
-      <DynamicContentChallenge />
+      {/* Tutorial Link: https://www.youtube.com/watch?v=a_SthPXtV6c&t=223s  */}
+      {/* Time Stamp: 1:10:13 */}
     </View>
   );
 };
