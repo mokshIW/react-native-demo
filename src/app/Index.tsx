@@ -1,15 +1,15 @@
-import { View } from "react-native";
-import InlineStyle from "../components/InlineStyle";
-import InternalStyle from "../components/InternalStyle";
-import ExternalStyle from "../components/ExternalStyle";
+import { ScrollView, View } from "react-native";
+import ListData from "../components/ListData";
+import ArrayOfObject from "../components/ArrayOfObject";
+import ChallengeList from "../components/ChallengeList";
 
 const Index = () => {
   return (
-    <View>
-      <InternalStyle />
-      <ExternalStyle />
-      <InlineStyle />
-    </View>
+    <ScrollView>
+      <ListData />
+      <ArrayOfObject />
+      <ChallengeList />
+    </ScrollView>
   );
 };
 
