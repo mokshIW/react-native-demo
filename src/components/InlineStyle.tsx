@@ -1,10 +1,20 @@
-import { View, Text } from "react-native";
-import React from "react";
+import { View } from "react-native";
 
 const InlineStyle = () => {
   return (
     <View>
-      <Text>InlineStyle</Text>
+      <View
+        style={{ backgroundColor: "blue", width: 100, height: 100, margin: 20 }}
+      />
+      <View
+        style={{ backgroundColor: "blue", width: 100, height: 100, margin: 20 }}
+      />
+      <View
+        style={{ backgroundColor: "blue", width: 100, height: 100, margin: 20 }}
+      />
+      <View
+        style={{ backgroundColor: "blue", width: 100, height: 100, margin: 20 }}
+      />
     </View>
   );
 };

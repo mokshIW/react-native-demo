@@ -1,10 +1,14 @@
 import { View } from "react-native";
+import InlineStyle from "../components/InlineStyle";
+import InternalStyle from "../components/InternalStyle";
+import ExternalStyle from "../components/ExternalStyle";
 
 const Index = () => {
   return (
     <View>
-      {/* Tutorial Link: https://www.youtube.com/watch?v=a_SthPXtV6c&t=223s  */}
-      {/* Time Stamp: 1:10:13 */}
+      <InternalStyle />
+      <ExternalStyle />
+      <InlineStyle />
     </View>
   );
 };
